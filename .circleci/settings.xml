@@ -14,7 +14,7 @@
         </server>
         <server>
             <id>github</id>
-            <username>john@springframework.guru</username>
+            <username>springframeworkguru</username>
             <password>${env.GIT_PWD}</password>
         </server>
     </servers>
