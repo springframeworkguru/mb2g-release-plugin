@@ -13,7 +13,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <junit.version>5.8.1</junit.version>
-        <project.scm.id>github</project.scm.id>
+        <project.scm.id>github_gihubme_st</project.scm.id>
 
     </properties>
 
@@ -33,8 +33,8 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
+        <developerConnection>scm:git:https://github.com/gihubme/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/gihubme/mb2g-release-plugin</url>
         <tag>HEAD</tag>
     </scm>
 
