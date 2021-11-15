@@ -1,5 +1,5 @@
-# Apache Maven: Beginner to Guru
+# Maven Release Plugin
 
-This respository contains code examples for the online course [Apache Maven: Beginner to Guru.](https://www.udemy.com/draft/2043700/?couponCode=GITHUB_REPO)
-
-## Maven Release Plugin Examples
+- setting up release-plugin to deploy project snapshots and releases to Packagecloud
+- setting up release-plugin and circleci to perform integration-test when circle brunch is updated
+- setting up release-plugin and circleci to deploy new releases when master brunch is updated
