@@ -6,11 +6,11 @@
     <servers>
         <server>
             <id>packagecloud.release</id>
-            <password>${env.PCLOUD}</password>
+            <password>${env.PW}</password>
         </server>
         <server>
             <id>packagecloud.snapshot</id>
-            <password>${env.PCLOUD}</password>
+            <password>${env.PW}</password>
         </server>
         <server>
             <id>github</id>

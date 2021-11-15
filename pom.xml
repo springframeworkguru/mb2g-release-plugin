@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mb2g-release-plugin</artifactId>
-    <version>1.18-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -12,8 +12,9 @@
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <junit.version>5.3.2</junit.version>
-        <project.scm.id>github</project.scm.id>
+        <junit.version>5.8.1</junit.version>
+        <project.scm.id>github_gihubme_st</project.scm.id>
+
     </properties>
 
     <dependencies>
@@ -32,8 +33,8 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
+        <developerConnection>scm:git:https://github.com/gihubme/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/gihubme/mb2g-release-plugin</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -49,17 +50,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.0</version>
+                <version>3.0.0-M5</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-
-                    <scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>
-
-                </configuration>
+                <version>3.0.0-M4</version>
             </plugin>
         </plugins>
     </build>

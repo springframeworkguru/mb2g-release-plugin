@@ -2,7 +2,14 @@
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
-version: 2
+version: 2.1
+
+workflows:
+    my-workflow:
+        jobs:
+            - build:
+                  context:
+                      - PCLOUD
 jobs:
     build:
         docker:
