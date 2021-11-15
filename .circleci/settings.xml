@@ -13,8 +13,8 @@
             <password>${env.PW}</password>
         </server>
         <server>
-            <id>github</id>
-            <username>springframeworkguru</username>
+            <id>github_gihubme_st</id>
+            <username>gihubme</username>
             <password>${env.GIT_PWD}</password>
         </server>
     </servers>
