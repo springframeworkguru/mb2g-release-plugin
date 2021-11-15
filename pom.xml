@@ -56,6 +56,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.0-M4</version>
+                <configuration>
+                    <scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>
+                </configuration>
             </plugin>
         </plugins>
     </build>
