@@ -62,11 +62,11 @@
     <distributionManagement>
         <repository>
             <id>packagecloud.release</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
+            <url>packagecloud+https://packagecloud.io/nikakar/mvnrelease</url>
         </repository>
         <snapshotRepository>
             <id>packagecloud.snapshot</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
+            <url>packagecloud+https://packagecloud.io/nikakar/mvnsnapshot</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
