@@ -15,7 +15,7 @@
         <server>
             <id>github_gihubme_st</id>
             <username>gihubme</username>
-            <password>${env.GIT_PWD}</password>
+            <password>${env.GIHUBME_PWD}</password>
         </server>
     </servers>
 </settings>
