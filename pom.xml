@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mb2g-release-plugin</artifactId>
-    <version>1.4</version>
+    <version>1.4-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,9 +32,9 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/developer-tahvildari/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/developer-tahvildari/mb2g-release-plugin</url>
-        <tag>mb2g-release-plugin-1.4</tag>
+        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
