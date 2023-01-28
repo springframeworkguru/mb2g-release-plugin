@@ -32,8 +32,8 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
+        <developerConnection>scm:git:https://github.com/developer-tahvildari/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/developer-tahvildari/mb2g-release-plugin</url>
         <tag>mb2g-release-plugin-1.9</tag>
     </scm>
 
