@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mb2g-release-plugin</artifactId>
-    <version>1.26</version>
+    <version>1.27-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,7 +35,7 @@
         <connection>scm:git:https://github.com/developer-tahvildari/mb2g-release-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/developer-tahvildari/mb2g-release-plugin.git</developerConnection>
 <!--        <url>https://github.com/developer-tahvildari/mb2g-release-plugin</url>-->
-    <tag>mb2g-release-plugin-1.26</tag>
+    <tag>HEAD</tag>
   </scm>
 
     <build>
