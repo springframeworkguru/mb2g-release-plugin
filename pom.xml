@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mb2g-release-plugin</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.26-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -13,7 +13,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <junit.version>5.3.2</junit.version>
-        <project.scm.id>github</project.scm.id>
+<!--        <project.scm.id>github</project.scm.id>-->
     </properties>
 
     <dependencies>
@@ -32,10 +32,11 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
-        <tag>HEAD</tag>
-    </scm>
+        <connection>scm:git:https://github.com/developer-tahvildari/mb2g-release-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/developer-tahvildari/mb2g-release-plugin.git</developerConnection>
+<!--        <url>https://github.com/developer-tahvildari/mb2g-release-plugin</url>-->
+    <tag>HEAD</tag>
+  </scm>
 
     <build>
         <extensions>
@@ -61,12 +62,12 @@
 
     <distributionManagement>
         <repository>
-            <id>packagecloud.release</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
+            <id>nexus-release</id>
+            <url>http://localhost:8081/repository/nexus-release/</url>
         </repository>
         <snapshotRepository>
-            <id>packagecloud.snapshot</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
+            <id>nexus-snapshot</id>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
