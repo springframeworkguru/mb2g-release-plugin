@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mb2g-release-plugin</artifactId>
-    <version>1.18-SNAPSHOT</version>
+    <version>1.34-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,10 +32,10 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/springframeworkguru/mb2g-release-plugin.git</developerConnection>
-        <url>https://github.com/springframeworkguru/mb2g-release-plugin</url>
-        <tag>HEAD</tag>
-    </scm>
+        <developerConnection>scm:git:https://github.com/qiubosu/mb2g-release-plugin.git</developerConnection>
+        <url>https://github.com/qiubosu/mb2g-release-plugin</url>
+      <tag>HEAD</tag>
+  </scm>
 
     <build>
         <extensions>
@@ -56,9 +56,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-
                     <scmCommentPrefix>[maven-release-plugin] [skip ci]</scmCommentPrefix>
-
                 </configuration>
             </plugin>
         </plugins>
@@ -66,12 +64,12 @@
 
     <distributionManagement>
         <repository>
-            <id>packagecloud.release</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
+            <id>packagecloud.qiubosu</id>
+            <url>packagecloud+https://packagecloud.io/qiubosu/qiubosu</url>
         </repository>
         <snapshotRepository>
             <id>packagecloud.snapshot</id>
-            <url>packagecloud+https://packagecloud.io/springframeworkguru/snapshot</url>
+            <url>packagecloud+https://packagecloud.io/qiubosu/snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 </project>

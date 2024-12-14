@@ -5,7 +5,7 @@
 
     <servers>
         <server>
-            <id>packagecloud.release</id>
+            <id>packagecloud.qiubosu</id>
             <password>${env.PCLOUD}</password>
         </server>
         <server>
@@ -14,7 +14,7 @@
         </server>
         <server>
             <id>github</id>
-            <username>springframeworkguru</username>
+            <username>qiubosu</username>
             <password>${env.GIT_PWD}</password>
         </server>
     </servers>
