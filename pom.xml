@@ -11,10 +11,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>11</java.version>
+        <java.version>25</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <junit.version>5.3.2</junit.version>
+        <junit.version>5.14.4</junit.version>
     </properties>
 
     <dependencies>
@@ -32,19 +32,29 @@
         </dependency>
     </dependencies>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>computology-maven-packagecloud-wagon</id>
+            <url>https://packagecloud.io/computology/maven-packagecloud-wagon/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
+
     <build>
         <extensions>
             <extension>
                 <groupId>io.packagecloud.maven.wagon</groupId>
                 <artifactId>maven-packagecloud-wagon</artifactId>
-                <version>0.0.6</version>
+                <version>0.0.8</version>
             </extension>
         </extensions>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.0</version>
+                <version>3.6.0-M1</version>
             </plugin>
         </plugins>
     </build>
